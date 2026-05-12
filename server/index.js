@@ -14,3 +14,4 @@ app.use('/api/expenses', expenseRoutes);
 app.listen(PORT, () => {
     console.log(`🚀 Servidor SplitGo! corriendo en http://localhost:${PORT}`);
 });
+export default app;
