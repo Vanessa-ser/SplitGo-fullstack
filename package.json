@@ -3,13 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
+  "engines": {
+    "node": "20.x"
+  },
+  
 "scripts": {
   "dev": "vite",
-  "build": "npx --yes vite build",
+  "build": "vite build",
   "preview": "vite preview",
   "postinstall": "cd server && npm install"
-
   },
+
+
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
